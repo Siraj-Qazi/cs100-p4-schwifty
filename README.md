@@ -25,26 +25,7 @@ To execute:
 ```
 
 ### Project Requirements (from PDF)
-
-This program reads a text file and makes it schwifty. The user supplies the filename to schwift and a string containing a sequence of the following characters to determine the schwiftiness via command line arguments:
-  * **L** - Left shift each character in a word:
-      ** hello --> elloh
-  * **R** - Right shift each character in a word:
-      ** elloh --> hello
-  * **I** - Shift the letters' and digits' value "up" by one (wraps if necessary) and keeps other characters as the same:
-      ** a --> b
-      ** Y --> Z
-      ** 2 --> 3
-      ** z --> a (wrap)
-      ** 9 --> 0 (wrap)
-      ** \[ --> \[ (same: not letter or digit)
-    **D** - Shift the letters' and digits' value "down" by one (wraps if necessary) and leaves other characters as the same:
-      ** b --> a
-      ** Z --> Y
-      ** 3 --> 2
-      ** a --> z (wrap)
-      ** 0 --> 9 (wrap)
-      ** \[ --> \[ (same - not letter or digit)
+![proj](/samples/project-desc.png)
 
 ![sample1](/samples/sample1.png)
 
